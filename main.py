@@ -63,4 +63,8 @@ print(a+b)
 print(a-b)
 print(a*b)
 print(a/b)
+print(a//b)
 print(a%b)
+
+print( 45/7)
+print(6.428571428571429+10)
