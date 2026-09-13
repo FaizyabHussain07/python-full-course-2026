@@ -41,12 +41,12 @@ print(f"total: {total}")
 
 
 
-number1= int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
-total = number1 + number2
-print (f"You have enter first number: {number1}")
+# number1= int(input("Enter first number: "))
+# number2 = int(input("Enter second number: "))
+# total = number1 + number2
+# print (f"You have enter first number: {number1}")
 
-print(f"You have enter second number: {number2}")
+# print(f"You have enter second number: {number2}")
 
 
 print(f"total : {total}")
@@ -54,3 +54,13 @@ print(f"total : {total}")
 
 print("hell      \t       o\n world")
 print("My name is \"Faizyab\" and i am 17 age")
+
+
+a = 10
+b=20
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
