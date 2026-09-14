@@ -102,3 +102,52 @@
 #     i +=1
 
 # print(f"total= {total}")
+
+
+
+#  make the 4 table
+
+
+# num = int(input("Enter table number: "))
+# i=1
+
+# while i <= 10:
+#     print(f"{num} X  {i} = {num*i}")
+#     i+=1
+
+
+#  print factor
+
+# num = int(input("Enter number: "))
+# i = 1
+# count = 0
+# while i<=num:
+#     if num%i == 0:
+#         print(i,end=" ")
+#         count= count+1
+#     i+=1
+
+# print(f"\n total factor {num} are {count}")
+
+
+
+# num = int(input("Enter number: "))
+# i = 1
+# while i<=num:
+#     if num%i == 0:
+#         print(i,end=" ")
+        
+#     i+=1
+
+
+
+#  for loop
+
+
+for i in range(1,11):
+    print(i)
+
+# steps in loop 
+
+for i in range (-10,19,2):
+    print(i)
