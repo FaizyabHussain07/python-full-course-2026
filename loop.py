@@ -144,10 +144,96 @@
 #  for loop
 
 
-for i in range(1,11):
-    print(i)
+# for i in range(1,11):
+#     print(i)
 
-# steps in loop 
+# # steps in loop 
 
-for i in range (-10,19,2):
-    print(i)
+# for i in range (-10,19,2):
+#     print(i)
+
+
+
+# # loop completed and break continue bhi
+
+
+# # question 
+
+
+# total = 0
+# while  True:
+#     num = int(input("Enter a number = "))
+#     if num <0:
+#         continue
+#     if num == 0:
+#         break
+#     total +=num 
+
+# print(total )
+
+
+
+# nested loop 
+
+# for i in range(1,4):
+#     print(  f"i =   {i}")
+#     for j in range(10,18):
+#         print(f"j = {j}")
+
+
+# nest loop mai patren like question han ju mainai class mai karliya thai ok
+
+# mai apagi bahir rha hun ok
+
+
+# for i in range(5,0,-1):
+#     for j in range(5,i-1,-1):
+#         print(j,end=" ")
+#     print()
+
+# for i in range(2,6):
+#     for j in range(5,i-1,-1):
+#         print(j,end=" ")
+#     print()
+
+
+# space patren
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()
+
+
+# for i in range(1,6):
+#     for k in range (1,6-i):
+#           print("@",end=" ")
+#     for j in range(1,i+1):
+#           print(j,end=" ")
+#     print()
+
+
+
+# for i in range(5,0,-1):
+#     for k in range (1,i-1 +1):
+#         print(" ",end=" ")
+#     for j in range(5,i-1,-1):
+#           print(j,end=" ")
+#     print()
+
+
+
+for i in range (1,6):
+    for j in range (1,5-i+1):
+        print(" ",end=" ")
+    for k in range(1,(i*2)):
+        print(k,end=" ")
+    print()
+
+for i in range (4,0,-1):
+    for j in range (1,5-i+1):
+        print(" ",end=" ")
+    for k in range(1,(i*2)):
+        print(k,end=" ")
+    print()
+
