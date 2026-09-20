@@ -142,14 +142,51 @@
 
 
 
-def calculate(math,eng,comp,urdu=0):
-    print(f" Math score =  {math}")
-    print(f" Eng score =  {eng}")
-    print(f" Computer score =  {comp}")
-    print(f" urdu score =  {urdu}")
+# def calculate(math,eng,comp,urdu=0):
+#     print(f" Math score =  {math}")
+#     print(f" Eng score =  {eng}")
+#     print(f" Computer score =  {comp}")
+#     print(f" urdu score =  {urdu}")
 
-    total = math + eng+ comp+urdu
-    print(f" total score =  {total}")
+#     total = math + eng+ comp+urdu
+#     print(f" total score =  {total}")
 
 
-calculate(comp= 90, urdu= 78 , math= 56,eng=78)
+# calculate(comp= 90, urdu= 78 , math= 56,eng=78)
+
+
+
+# lamda 
+
+
+# def square(n):
+#     return n*n
+
+# ans = lambda n: n*n
+
+# print(ans(12))
+# print(square(12))
+
+
+# def adult(age):
+#     if age >= 18:
+#         return True
+#     return False
+
+# is_adult=lambda age: True if age>= 18 else False
+
+# print(is_adult(20))
+# print(adult(17))
+
+
+# def number(num):
+#     if num%3 == 0 :
+#         return "Fizz"
+#     if num%5 == 0 :
+#             return "buzz"
+#     if num%3 == 0 and num%5 :
+#             return "Fizzbuzz"
+#     return num
+
+# print(number(7))
+
