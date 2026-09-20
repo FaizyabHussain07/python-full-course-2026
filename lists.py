@@ -40,12 +40,51 @@
 # print(marks[4])
 
 
-lst = [54, 45, 56, 7, 253, 647, 235, 67135, 67, 76, 534.4654, 34536]
+# lst = [54, 45, 56, 7, 253, 647, 235, 67135, 67, 76, 534.4654, 34536]
 
 
-print(lst)
+# print(lst)
 
-print(lst[7])
+# print(lst[7])
 
-add = lst[7] + 34
-print(add)
+# add = lst[7] + 34
+# print(add)
+
+
+# print(lst[6])
+# print(lst[-4])
+
+# lst = [54, 45, 56, 7, 253, 647, 235, 67135, 67, 76, 534.4654, 34536]
+
+
+# n = len(lst)
+# print(f"last element= {lst[n-1]}")
+
+
+# lst = [54, 45, 56, 7, 253, 647, 235, 67135, 67, 76, 534.4654, 34536]
+
+# # print(f"list is {lst}")
+# lst[3] = 0
+# lst[-3] = 0
+
+# print(f"list updated {lst}")
+
+
+# marks = [54, 45, 56, 34, 235, 67135, 67, 76, 534.4654, 34536]
+
+# n = len(marks)
+# print(f"First element = {marks[0]}")
+# print(f"last element = {marks[-1]}")
+# print(f"middle element = {marks[n//2]}")
+
+
+num = [54, 45, 56, 34, 235, 67, 13, 5, 67, 76, 53, 4, 46, 54, 34, 5, 3, 6]
+
+print(f"{num[1:]}")
+print(f"{num[1:9]}")
+print(f"{num[1:7:2]}")
+print(f"{num[:10]}")
+print(f"{num[:10:2]}")
+print(f"{num[1::3]}")
+print(f"{num[:5:1]}")
+print(f"{num[9::2]}")
